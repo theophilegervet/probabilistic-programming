@@ -16,4 +16,4 @@ This repository contains two examples — a 1D linear regression and a 1D hierar
 ## Advantages of each framework
 - PyMC3 has better support for Markov Chain Monte Carlo (MCMC) inference (faster and can parallellize across multiple chains), while Pyro was built for variational inference (although both frameworks support both approaches)
 - Pyro make it easier to use neural network components (in a VAE, for example), as it is built on top of PyTorch for automatic differentiation while PyMC3 is built on top of Theano
-- PyMC3 + MCMC works best for smaller models, while Pyro can scale to very large models
+- (PyMC3 + MCMC) works best for smaller models, while (Pyro + variational inference) can scale to very large models
